@@ -5,10 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Transient;
 import java.io.Serializable;
 
-/**
- * @param
- * @return
- */
+
 public class PmsBaseAttrValue implements Serializable {
     @Id
     @Column

@@ -6,10 +6,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @param
- * @return
- */
+
 public class PmsBaseAttrInfo implements Serializable {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
